@@ -17,3 +17,56 @@ The mobile app is implemented using Flutter. The moves (up, down, left, right), 
 from the Firebase database is read by the Arduino C app. Using the data read from the Firebase database, the robot is moved in the given direction, the angle of 
 the servomotor is set, and the speed of the motors is also set. The Arduino C program sends, once a second, the distance to the Firebase database. The mobile app
 reads the distance from the Firebase database and it displays on the GUI of the mobile app.
+
+## Summary
+✅ G.U.I. 
+
+❌ Ease of installation
+
+✅ Additional hardware needed
+
+✅ Video available
+
+❌ Documentation
+
+## Project description
+
+### Folder structure
+
+📁 Flutter_files : contains the Flutter project (it can be imported).
+
+- 📄 [UPrincP.pas](https://github.com/mariusstoica21/calculator_asmx86/blob/master/Delphi_files/UPrincP.pas): main form of the app.
+
+📁 Arduino_files : program in Arduino that reads data from the Firebase database and controls the robot according to the information stored in database.
+    
+📄 [calculator.asm](https://github.com/mariusstoica21/calculator_asmx86/blob/master/calculator.asm)
+: assembly_x86 file.
+
+## Additional resources
+
+➕ NodeMCU
+
+➕ Servomotor
+
+➕ Ultrasonic sensor
+
+➕ HBridge
+
+➕ Rotary encoder
+
+➕ Encoder motor
+
+➕ Wheels
+
+## Installation
+
+- Install the App Bundle Installer.
+- Download the bundle file .aab.
+- Install the mobile app using App Bundle Installer by following the steps described in the app.
+- Run Robot.ino program in Arduino IDE on the NodeMCU board.
+  - Select board.
+  - Select PORT.
+  - Connect NodeMCU board to the corresponding PORT using the cable.
+- Use the mobile app to move the robot, to set the angle of the servomotor and the speed of the motors.
+
+
