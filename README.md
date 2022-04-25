@@ -37,10 +37,10 @@ reads the distance from the Firebase database and it displays on the GUI of the 
 
 - 📄 [UPrincP.pas](https://github.com/mariusstoica21/calculator_asmx86/blob/master/Delphi_files/UPrincP.pas): main form of the app.
 
-📁 Arduino_files : program in Arduino that reads data from the Firebase database and controls the robot according to the information stored in database.
+📁 Arduino_files : contains the Arduino project.
     
-📄 [calculator.asm](https://github.com/mariusstoica21/calculator_asmx86/blob/master/calculator.asm)
-: assembly_x86 file.
+📄 [Robot.ino](https://github.com/mariusstoica21/obstacle_avoiding_robot/blob/main/Arduino_files/Robot.ino) : 
+program in Arduino that reads data from the Firebase database and controls the robot according to the information stored in database.
 
 ## Additional resources
 
