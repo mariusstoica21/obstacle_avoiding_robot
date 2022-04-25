@@ -56,8 +56,6 @@ reads the distance from the Firebase database and it displays on the GUI of the 
 
 ➕ Encoder motor
 
-➕ Wheels
-
 ## Installation
 
 - Install the App Bundle Installer.
@@ -71,6 +69,12 @@ reads the distance from the Firebase database and it displays on the GUI of the 
 
 ## Tutorial
 
+### Project flow
+
+
+
+In order to display the distance in the mobile app, the Arduino app send the value read using the ultrasonic sensor, once a second. The value is send to Firebase,
+and then again send to the mobile app, where it will be showed.
 
 <p align="center">
   <img 
@@ -78,11 +82,36 @@ reads the distance from the Firebase database and it displays on the GUI of the 
   >
 </p>
 
+In order to set the direction of movement, the user will press on one of the buttons of the controller in the mobile app. After the button is pressed, the value
+of the movement direction, as a string, will be send from the mobile app to the Firebase. The Arduino app reads once a second the direction from Firebase, and acts
+the motors accordingly.
+
 <p align="center">
   <img 
     src="https://i.postimg.cc/TPN27dGB/4.jpg"
   >
 </p>
+
+### Firebase database
+
+The information in the database can be read and written, depending on the rules set.
+
+The database is updated by two entities:
+- the mobile app sends the angle of the servomotor, the speed of the motor and the direction.
+- the Arduino app send the distance to the nearest object.
+
+
+<p align="center">
+  <img 
+    src="https://i.postimg.cc/SNJT1PvX/10.png"
+  >
+</p>
+
+### Serial Monitor Arduino
+
+The serial monitor prints the fact that the NodeMCU board is connected on the Internet Network ("Connected: 192.168.1.7"). It also prints the direction read from
+the database, ("Direction: stop"), the value of the servomotor angle ("Servo value : 79"), the speed gear of the motors ("Speed value : 5"). It also displays the
+distance measured by the ultrasonic sensor till the nearest object, in centimeters ("Distance: 38").
 
 <p align="center">
   <img 
@@ -90,11 +119,22 @@ reads the distance from the Firebase database and it displays on the GUI of the 
   >
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img 
     src="https://i.postimg.cc/MZjhcyPh/5.jpg"
   >
-</p>
+</p> -->
+
+### Obstacle avoiding robot
+
+The robot contains a plastic board on top of which the components are set. The board contains the following components:
+- NodeMCU board.
+- HBridge.
+- Encoder motors.
+- Sonar sensor.
+- Servomotor.
+- Breadboard.
+- 9V Battery.
 
 <p align="center">
   <img 
@@ -102,11 +142,19 @@ reads the distance from the Firebase database and it displays on the GUI of the 
   >
 </p>
 
+### Mobile app
+
+In the left image, the app is run on the Nexus 6 Emulator using Android Studio. In the right image, the mobile app was installed on the mobile phone, using the 
+steps described at the Installation topic above.
+
 <p align="center">
   <img 
-    src="https://i.postimg.cc/X7mNGT54/Component-48-1.png"
+    src="https://i.postimg.cc/vZ8Rmhqb/Component-49-1.png"
   >
 </p>
+
+
+
 
 
 
