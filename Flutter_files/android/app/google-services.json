@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "215727143984",
+    "project_id": "fir-oar",
+    "storage_bucket": "fir-oar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215727143984:android:5aa3300605826aec9341f5",
+        "android_client_info": {
+          "package_name": "com.example.obstacle_avoiding_robot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215727143984-4acc463btv4v0mng86mm1delsk7ke6va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApH8QY6NRnbPXpVoilNjdLZsUCifypOKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215727143984-4acc463btv4v0mng86mm1delsk7ke6va.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
