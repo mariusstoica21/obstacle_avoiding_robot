@@ -107,11 +107,19 @@ the motors accordingly.
   >
 </p> -->
 
-<p align="center">
+<!-- <p align="center">
   <img 
     src="https://i.postimg.cc/285q6jgJ/14.jpg"
   >
+</p> -->
+
+<p align="center">
+  <img 
+    src="https://i.postimg.cc/GphZyNJX/20.jpgg"
+  >
 </p>
+
+
 
 ### Firebase database
 
@@ -121,12 +129,20 @@ The database is updated by two entities:
 - the mobile app sends the angle of the servomotor, the speed of the motor and the direction.
 - the Arduino app send the distance to the nearest object.
 
-
+<!-- 
 <p align="center">
   <img 
     src="https://i.postimg.cc/SNJT1PvX/10.png"
   >
+</p> -->
+
+<p align="center">
+  <img 
+    src="https://i.postimg.cc/pdZD5cXX/19.jpg"
+  >
 </p>
+
+
 
 ### Serial Monitor Arduino
 
@@ -134,11 +150,18 @@ The serial monitor prints the fact that the NodeMCU board is connected on the In
 the database, ("Direction: stop"), the value of the servomotor angle ("Servo value : 79"), the speed gear of the motors ("Speed value : 5"). It also displays the
 distance measured by the ultrasonic sensor till the nearest object, in centimeters ("Distance: 38").
 
-<p align="center">
+<!-- <p align="center">
   <img 
     src="https://i.postimg.cc/WzKtz05N/1.png"
   >
+</p> -->
+
+<p align="center">
+  <img 
+    src="https://i.postimg.cc/Hxb1tMRx/18.jpg"
+  >
 </p>
+
 
 <!-- <p align="center">
   <img 
