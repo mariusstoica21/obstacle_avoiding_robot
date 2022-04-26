@@ -33,14 +33,23 @@ reads the distance from the Firebase database and it displays on the GUI of the 
 
 ### Folder structure
 
+📁 Arduino_files : contains the Arduino project.
+
+- 📄 [Robot.ino](https://github.com/mariusstoica21/obstacle_avoiding_robot/blob/main/Arduino_files/Robot.ino) : 
+program in Arduino that reads data from the Firebase database and controls the robot according to the information stored in database.
+
 📁 Flutter_files : contains the Flutter project (it can be imported).
 
-- 📄 [UPrincP.pas](https://github.com/mariusstoica21/calculator_asmx86/blob/master/Delphi_files/UPrincP.pas): main form of the app.
+- 📄 [main.dart](https://github.com/mariusstoica21/obstacle_avoiding_robot/blob/main/Flutter_files/lib/main.dart): the root of the application.
+- 📄 [home.dart](https://github.com/mariusstoica21/obstacle_avoiding_robot/blob/main/Flutter_files/lib/screens/home.dart): main screen of the app.
 
-📁 Arduino_files : contains the Arduino project.
+📄 Obstacle_avoiding_robot.aab : the app bundle file used in order
+to install the application on the mobile phone, by following the steps at the Installation topic below.
+
+
+
     
-📄 [Robot.ino](https://github.com/mariusstoica21/obstacle_avoiding_robot/blob/main/Arduino_files/Robot.ino) : 
-program in Arduino that reads data from the Firebase database and controls the robot according to the information stored in database.
+
 
 ## Additional resources
 
@@ -76,9 +85,15 @@ program in Arduino that reads data from the Firebase database and controls the r
 In order to display the distance in the mobile app, the Arduino app send the value read using the ultrasonic sensor, once a second. The value is send to Firebase,
 and then again send to the mobile app, where it will be showed.
 
-<p align="center">
+<!-- <p align="center">
   <img 
     src="https://i.postimg.cc/XvRcC0m6/3.jpg"
+  >
+</p> -->
+
+<p align="center">
+  <img 
+    src="https://i.postimg.cc/T1ftm5nn/15.jpg"
   >
 </p>
 
@@ -86,9 +101,15 @@ In order to set the direction of movement, the user will press on one of the but
 of the movement direction, as a string, will be send from the mobile app to the Firebase. The Arduino app reads once a second the direction from Firebase, and acts
 the motors accordingly.
 
-<p align="center">
+<!-- <p align="center">
   <img 
     src="https://i.postimg.cc/TPN27dGB/4.jpg"
+  >
+</p> -->
+
+<p align="center">
+  <img 
+    src="https://i.postimg.cc/285q6jgJ/14.jpg"
   >
 </p>
 
