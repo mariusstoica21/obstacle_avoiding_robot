@@ -47,7 +47,53 @@ program in Arduino that reads data from the Firebase database and controls the r
 to install the application on the mobile phone, by following the steps at the Installation topic below.
 
 
+### Technologies
 
+<table>
+  <tr>
+    <th>🔨 Tools/Framework</th>
+    <th>📘 Language</th>
+    <th>📃 Usage </th>
+    <th>📚 Files</th>
+    <th> ℹ Details  </th>
+  </tr>
+  <tr>
+    <td>Flutter</td>
+    <td>Dart</td>
+    <td>Mobile app</td>
+    <td>main.dart,home.dart</td>
+    <td>
+       <ul>
+        <li>The home.dart file is the main screen of the mobile application.</li>
+        <li>The mobile application displays the distance to the nearest object, and can set the angle of the robot's servomotor, the speed gear and the
+         direction of movement.
+         </li>
+        <li>The mobile communicates with Firebase database in order to control the robot and to read and display data.</li>
+      </ul>
+   </td>
+  </tr>
+  <tr>
+    <td>Arduino</td>
+    <td>C</td>
+    <td>Program that controls the robot</td>
+    <td>Robot.ino</td>
+    <td>
+       <ul>
+        <li>The Arduino program reads data from Firebase in order to control the robot's servomotor angle, speed and direction.</li>
+        <li>The robot's sonar sensor reads the distance from the nearby object and it sends it to the Firebase database, and then to the mobile app.</li>
+      </ul>
+   </td>
+  </tr>
+</table>
+
+## Installation
+- Go to https://github.com/mariusstoica21/calculator_asmx86.
+- Click the green **'Code'** button.
+- Click **'Download ZIP'**.
+- Import the VHDL project and load it on the Basys3 board.
+- Run the app by double-clicking **'MIPS.exe'** in the 'mips_vhdl_main' 
+folder.
+- On the Basys3, click the left button (BTN4) in order to jump to the next intruction.
     
 
 
