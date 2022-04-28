@@ -6,22 +6,16 @@
 #include <Servo.h>
 
 //Firebase host name
-#define FIREBASE_HOST "fir-oar-default-rtdb.firebaseio.com"  
+#define FIREBASE_HOST "" //Add Firebase hostname
 //Secret key firebase
-#define FIREBASE_AUTH "lEpmDWu4HCFUNIgwErsSytzxopsbqP4XMGo8TtpP"
+#define FIREBASE_AUTH "" //Add secret key
 
 
 //Wifi username and password
-//#define WIFI_SSID "netis" //Add your WiFi username
-//#define WIFI_PASSWORD "password" //Add your WiFi password
-
-//
-//#define WIFI_SSID "DIGI-7j8B"
-//#define WIFI_PASSWORD "H9fXb7Kv"
+#define WIFI_SSID "" //Add your WiFi username
+#define WIFI_PASSWORD "" //Add your WiFi password
 
 
-#define WIFI_SSID "DIGI_0379d0"
-#define WIFI_PASSWORD "ddccfc86"
 
 
 //Variable declaration
