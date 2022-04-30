@@ -25,7 +25,7 @@ reads the distance from the Firebase database and it displays on the GUI of the 
 
 ✅ Additional hardware needed
 
-✅ Video available
+✅ [Video available](https://www.youtube.com/watch?v=28BlhGxeqgs&list=PLepK0OW96HDlO9ZFQbR8YJ2-4iCYCZgcQ&index=2)
 
 ❌ Documentation
 
