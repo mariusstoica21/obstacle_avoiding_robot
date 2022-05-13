@@ -74,7 +74,7 @@ to install the application on the mobile phone, by following the steps at the In
   </tr>
   <tr>
     <td>Arduino</td>
-    <td>C</td>
+    <td>C++</td>
     <td>Program that controls the robot</td>
     <td>Robot.ino</td>
     <td>
